@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "defaultLocale": "ca",
+  "supportedLocales": [
+    {
+      "code": "ca",
+      "nativeName": "Català",
+      "englishName": "Catalan",
+      "isBundled": true,
+      "isRtl": false,
+      "fallbacks": ["es"]
+    },
+    {
+      "code": "es",
+      "nativeName": "Español",
+      "englishName": "Spanish",
+      "isBundled": true,
+      "isRtl": false,
+      "fallbacks": ["ca"]
+    }
+  ]
+}
