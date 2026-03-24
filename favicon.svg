@@ -1,4 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#2E7D32"/>
-  <text x="16" y="23" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="white" text-anchor="middle">R</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#f5f3ee"/>
+  <!-- Fork (left) -->
+  <g fill="#1a6240">
+    <rect x="15" y="18" width="3.5" height="20" rx="1.75"/>
+    <rect x="20" y="18" width="3.5" height="20" rx="1.75"/>
+    <rect x="25" y="18" width="3.5" height="20" rx="1.75"/>
+    <rect x="15" y="36" width="14" height="5" rx="2"/>
+    <rect x="18.5" y="39" width="7" height="42" rx="3.5"/>
+  </g>
+  <!-- Spoon (right) -->
+  <g fill="#1a6240">
+    <ellipse cx="75" cy="29" rx="8" ry="11"/>
+    <rect x="71.5" y="38" width="7" height="43" rx="3.5"/>
+  </g>
+  <!-- Face circle -->
+  <circle cx="50" cy="44" r="19" fill="none" stroke="#1a6240" stroke-width="5.5"/>
+  <!-- Eyes -->
+  <circle cx="43" cy="40" r="3" fill="#1a6240"/>
+  <circle cx="57" cy="40" r="3" fill="#1a6240"/>
+  <!-- Smile -->
+  <path d="M42 51 Q50 59 58 51" fill="none" stroke="#1a6240" stroke-width="4" stroke-linecap="round"/>
+  <!-- Body arms -->
+  <path d="M37 62 Q30 72 27 80" fill="none" stroke="#1a6240" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M63 62 Q70 72 73 80" fill="none" stroke="#1a6240" stroke-width="5.5" stroke-linecap="round"/>
 </svg>
